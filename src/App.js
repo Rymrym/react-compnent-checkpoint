@@ -9,7 +9,7 @@ import Adress from './Component/Profile/Adress';
 
 function App() {
   return (
-   <React.Fragment>
+   <>
       <Container fluid className = 'container'>
         <img src = '/logo.png' href = 'facebookLogo' className="logo"></img>
       </Container>
@@ -21,7 +21,7 @@ function App() {
       </Col>
       </Row>
       </Container>
-      </React.Fragment>
+      </>
   );
 }
 
